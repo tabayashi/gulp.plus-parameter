@@ -1,0 +1,33 @@
+{
+  "name": "gulp.plus-parameter",
+  "version": "0.0.1",
+  "description": "gulp.plus-parameter",
+  "author": "Eiki Tabayashi",
+  "license": "ISC",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "GULP_PLUS_PARAMETER_TEST=1 gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tabayashi/gulp.plus-parameter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tabayashi/gulp.plus-parameter/issues"
+  },
+  "homepage": "https://github.com/tabayashi/gulp.plus-parameter#readme",
+  "dependencies": {
+    "kind-of": "^5.0.0",
+    "merge": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^4.3.1",
+    "gulp-plumber": "^1.1.0",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.7",
+    "sinon-chai": "^2.11.0",
+    "sinon-test": "^2.0.0"
+  }
+}
