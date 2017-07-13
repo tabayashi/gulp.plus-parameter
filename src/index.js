@@ -187,7 +187,7 @@ Object.defineProperties(Parameter.prototype, {
 
   ace: {
     value: function(path, variable) {
-      Recursive.set(this.data, path, variable, true);
+      Recursive.set(this.data, path, merge({}, variable, this.data), true);
       return this;
     },
   },
