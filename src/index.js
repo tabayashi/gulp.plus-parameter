@@ -147,7 +147,7 @@ function Parameter(object) {
   }
 
   if (object instanceof Parameter) {
-    return new Parameter(clone(object.data));
+    return object.clone();
   }
 
   this.init(object);
