@@ -110,7 +110,7 @@ var Recursive = Object.defineProperties({}, {
       }
 
       return Recursive.get(value, path.slice(1), ace);
-    }
+    },
   },
 
   has: {
@@ -187,7 +187,7 @@ Object.defineProperties(Parameter.prototype, {
 
   ace: {
     value: function(path, variable) {
-      Recursive.set(this.data, path, merge({}, variable, this.data), true);
+      Recursive.set(this.data, path, variable, true);
       return this;
     },
   },
